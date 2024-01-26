@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.box h1 {
+  text-transform: capitalize;
+  color: #393939;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  margin: 10px;
+  font-weight: 100;
+  line-height: 1.5; 
+}
+
+.box h2 {
+  color: #26367C;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5; 
+}
+
+
+.box img {
+  width: 325px;
+  height: 325px;
+  flex-shrink: 0;
+}
+.box1{
+  width: 375px;
+  height: 835px;
+  background: #F5F7FB;
+}
